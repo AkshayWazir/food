@@ -1,0 +1,14 @@
+.topbar {
+  flex: 0 0 100%;
+  max-width: 100%;
+  font-size: 14px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0;
+  background-color: #395e63 !important;
+  color: #999;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
