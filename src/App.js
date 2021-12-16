@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import react from "react";
+import Top from "./Page1/top";
+import Header from "./Page1/Header";
+import Modal from "./Page1/Modal";
+import Footer from "./Page1/Footer";
+import Copyright from "./Page1/Copyright";
+import Bookshelve from "./Page1/content/Bookshelve";
+import Gap from "./Page1/gap";
+import Carousel from "./Page1/carousel";
+import Clients from "./Page1/Clients";
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+return (
+    <div className="site">
+      <Modal/>
+      <Header />
+      <Gap/>
+      <Top />
+      <Carousel />
+      <Bookshelve />
+      <Clients/>
+      <Footer />
+      <Copyright />
     </div>
   );
 }

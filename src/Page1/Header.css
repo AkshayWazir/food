@@ -1,0 +1,19 @@
+.header {
+    width: 100%;
+    margin-top: 0
+px
+;
+    margin-bottom: 0
+px
+;
+    color: rgb(12, 12, 158);
+    position: relative;
+    z-index: 99;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    position: fixed;
+    background-color: rgb(0, 0, 0);
+}
